@@ -3,6 +3,9 @@
 
 name: Maven Package
 
+trigger:
+  - push
+
 on:
   release:
     types: [created]
