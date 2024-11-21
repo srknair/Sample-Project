@@ -27,6 +27,6 @@ public class BookService {
 
     public Book getbyId(Long id)
     {
-        return bookrepo.findById(id).orElseThrow(()->new RuntimeException("No Book found with this Id"));
+        return bookrepo.findById(id).orElseThrow(()->new RuntimeException("No Book found with  Id"));
     }
 }
