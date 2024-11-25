@@ -66,6 +66,12 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+		<repository>
+			<id>srknair</id>
+			<url>https://github.com/srknair/Sample-Project.git</url>
+		</repository>
+	</distributionManagement>
 
 	<build>
 		<plugins>
